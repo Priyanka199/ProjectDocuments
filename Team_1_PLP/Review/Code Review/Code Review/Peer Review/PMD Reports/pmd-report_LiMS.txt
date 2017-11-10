@@ -1,0 +1,539 @@
+src/com/cg/library/controllers/HomeController.java:11:	Each class should declare at least one constructor
+src/com/cg/library/controllers/HomeController.java:11:	headerCommentRequirement Required
+src/com/cg/library/controllers/HomeController.java:14:	Method names should not start with capital letters
+src/com/cg/library/controllers/HomeController.java:14:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/HomeController.java:20:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/HomeController.java:20:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:25:	Each class should declare at least one constructor
+src/com/cg/library/controllers/LibrarianController.java:25:	This class has too many methods, consider refactoring it.
+src/com/cg/library/controllers/LibrarianController.java:25:	headerCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/controllers/LibrarianController.java:28:	fieldCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:31:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:31:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:34:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:36:	The String literal "key" appears 8 times in this file; the first occurrence is on line 36
+src/com/cg/library/controllers/LibrarianController.java:43:	Parameter 'librarian' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:43:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:46:	Found 'DD'-anomaly for variable 'path' (lines '46'-'58').
+src/com/cg/library/controllers/LibrarianController.java:48:	Found 'DD'-anomaly for variable 'result' (lines '48'-'53').
+src/com/cg/library/controllers/LibrarianController.java:50:	Local variable 'userName' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:51:	Local variable 'password' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:63:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/library/controllers/LibrarianController.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/LibrarianController.java:66:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:72:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:72:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:80:	Avoid reassigning parameters such as 'book'
+src/com/cg/library/controllers/LibrarianController.java:80:	Parameter 'result' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:80:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:84:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:94:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:101:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:101:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:103:	Found 'DD'-anomaly for variable 'books' (lines '103'-'104').
+src/com/cg/library/controllers/LibrarianController.java:110:	Found 'UR'-anomaly for variable 'book' (lines '110'-'119').
+src/com/cg/library/controllers/LibrarianController.java:110:	Parameter 'bookId' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:110:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:110:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:113:	Found 'DD'-anomaly for variable 'flag' (lines '113'-'121').
+src/com/cg/library/controllers/LibrarianController.java:114:	Found 'DD'-anomaly for variable 'result' (lines '114'-'127').
+src/com/cg/library/controllers/LibrarianController.java:114:	Found 'DU'-anomaly for variable 'result' (lines '114'-'135').
+src/com/cg/library/controllers/LibrarianController.java:115:	Found 'DD'-anomaly for variable 'books' (lines '115'-'116').
+src/com/cg/library/controllers/LibrarianController.java:117:	Local variable 'book' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/LibrarianController.java:121:	Found 'DD'-anomaly for variable 'flag' (lines '121'-'121').
+src/com/cg/library/controllers/LibrarianController.java:124:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:125:	Avoid using Literals in Conditional Statements
+src/com/cg/library/controllers/LibrarianController.java:129:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:138:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:138:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:141:	Found 'DD'-anomaly for variable 'regBooks' (lines '141'-'142').
+src/com/cg/library/controllers/LibrarianController.java:144:	The String literal "librarian/IssueBook" appears 4 times in this file; the first occurrence is on line 144
+src/com/cg/library/controllers/LibrarianController.java:148:	Found 'UR'-anomaly for variable 'list' (lines '148'-'156').
+src/com/cg/library/controllers/LibrarianController.java:148:	Parameter 'books' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:148:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:148:	Parameter 'regId' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:148:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:150:	Found 'DD'-anomaly for variable 'book' (lines '150'-'169').
+src/com/cg/library/controllers/LibrarianController.java:151:	Found 'DD'-anomaly for variable 'result' (lines '151'-'158').
+src/com/cg/library/controllers/LibrarianController.java:152:	Found 'DD'-anomaly for variable 'regBooks' (lines '152'-'153').
+src/com/cg/library/controllers/LibrarianController.java:154:	Local variable 'list' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:156:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/LibrarianController.java:158:	Found 'DD'-anomaly for variable 'result' (lines '158'-'158').
+src/com/cg/library/controllers/LibrarianController.java:161:	Avoid using Literals in Conditional Statements
+src/com/cg/library/controllers/LibrarianController.java:170:	Avoid if (x != y) ..; else ..;
+src/com/cg/library/controllers/LibrarianController.java:172:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/cg/library/controllers/LibrarianController.java:172:	Avoid unused local variables such as 'updateStatus'.
+src/com/cg/library/controllers/LibrarianController.java:172:	Found 'DU'-anomaly for variable 'updateStatus' (lines '172'-'186').
+src/com/cg/library/controllers/LibrarianController.java:172:	Local variable 'updateStatus' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:174:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:178:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:189:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:189:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:191:	Found 'DD'-anomaly for variable 'trans' (lines '191'-'192').
+src/com/cg/library/controllers/LibrarianController.java:199:	Found 'UR'-anomaly for variable 'list' (lines '199'-'210').
+src/com/cg/library/controllers/LibrarianController.java:199:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:199:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:201:	Found 'DD'-anomaly for variable 'result' (lines '201'-'212').
+src/com/cg/library/controllers/LibrarianController.java:202:	Found 'DD'-anomaly for variable 'expDate' (lines '202'-'213').
+src/com/cg/library/controllers/LibrarianController.java:202:	Found 'DU'-anomaly for variable 'expDate' (lines '202'-'243').
+src/com/cg/library/controllers/LibrarianController.java:204:	Found 'DU'-anomaly for variable 'returnDate' (lines '204'-'243').
+src/com/cg/library/controllers/LibrarianController.java:204:	Local variable 'returnDate' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:205:	Found 'DD'-anomaly for variable 'trans' (lines '205'-'206').
+src/com/cg/library/controllers/LibrarianController.java:208:	Local variable 'list' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:210:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/LibrarianController.java:212:	Found 'DD'-anomaly for variable 'result' (lines '212'-'212').
+src/com/cg/library/controllers/LibrarianController.java:213:	Found 'DD'-anomaly for variable 'expDate' (lines '213'-'213').
+src/com/cg/library/controllers/LibrarianController.java:213:	Found 'DU'-anomaly for variable 'expDate' (lines '213'-'243').
+src/com/cg/library/controllers/LibrarianController.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/LibrarianController.java:217:	Avoid using Literals in Conditional Statements
+src/com/cg/library/controllers/LibrarianController.java:219:	Local variable 'fine' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:220:	Local variable 'update' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:222:	Avoid using Literals in Conditional Statements
+src/com/cg/library/controllers/LibrarianController.java:224:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:227:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:232:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:234:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/LibrarianController.java:239:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:248:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/controllers/LibrarianController.java:248:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/LibrarianController.java:250:	Local variable 'finalReceipt' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:252:	System.out.println is used
+src/com/cg/library/controllers/LibrarianController.java:253:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/cg/library/controllers/LibrarianController.java:253:	Avoid unused local variables such as 'delReturnBook'.
+src/com/cg/library/controllers/LibrarianController.java:253:	Found 'DU'-anomaly for variable 'delReturnBook' (lines '253'-'256').
+src/com/cg/library/controllers/LibrarianController.java:253:	Local variable 'delReturnBook' could be declared final
+src/com/cg/library/controllers/LibrarianController.java:258:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:25:	Each class should declare at least one constructor
+src/com/cg/library/controllers/StudentController.java:25:	headerCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/controllers/StudentController.java:27:	Use explicit scoping instead of the default package private level
+src/com/cg/library/controllers/StudentController.java:27:	fieldCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:28:	Use explicit scoping instead of the default package private level
+src/com/cg/library/controllers/StudentController.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/controllers/StudentController.java:29:	fieldCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:32:	Avoid variables with short names like m
+src/com/cg/library/controllers/StudentController.java:32:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:32:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:38:	Avoid variables with short names like m
+src/com/cg/library/controllers/StudentController.java:38:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:38:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:44:	Use explicit scoping instead of the default package private level
+src/com/cg/library/controllers/StudentController.java:45:	Avoid variables with short names like m
+src/com/cg/library/controllers/StudentController.java:45:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:45:	Parameter 'result' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:45:	Parameter 'user' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:49:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/StudentController.java:60:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:60:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:63:	Avoid instantiating String objects; this is usually unnecessary.
+src/com/cg/library/controllers/StudentController.java:64:	Avoid instantiating String objects; this is usually unnecessary.
+src/com/cg/library/controllers/StudentController.java:65:	Avoid instantiating String objects; this is usually unnecessary.
+src/com/cg/library/controllers/StudentController.java:71:	Method names should not start with capital letters
+src/com/cg/library/controllers/StudentController.java:71:	Parameter 'username' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:71:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:72:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:72:	Parameter 'passwrd' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:73:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:76:	Local variable 'user' could be declared final
+src/com/cg/library/controllers/StudentController.java:77:	Local variable 'session' could be declared final
+src/com/cg/library/controllers/StudentController.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:80:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/controllers/StudentController.java:82:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/library/controllers/StudentController.java:86:	Avoid instantiating String objects; this is usually unnecessary.
+src/com/cg/library/controllers/StudentController.java:94:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:96:	Local variable 'bookInventoryList' could be declared final
+src/com/cg/library/controllers/StudentController.java:97:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'book_id' is not final.
+src/com/cg/library/controllers/StudentController.java:101:	Parameter 'book_id' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:101:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:102:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:103:	Local variable 'session' could be declared final
+src/com/cg/library/controllers/StudentController.java:104:	Local variable 'uId' could be declared final
+src/com/cg/library/controllers/StudentController.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/library/controllers/StudentController.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/library/controllers/StudentController.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:105:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:106:	Local variable 'book' could be declared final
+src/com/cg/library/controllers/StudentController.java:107:	Local variable 'breg' could be declared final
+src/com/cg/library/controllers/StudentController.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:118:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/cg/library/controllers/StudentController.java:118:	Avoid empty catch blocks
+src/com/cg/library/controllers/StudentController.java:118:	Avoid empty catch blocks
+src/com/cg/library/controllers/StudentController.java:126:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:126:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:128:	Local variable 'session' could be declared final
+src/com/cg/library/controllers/StudentController.java:129:	Local variable 'uId' could be declared final
+src/com/cg/library/controllers/StudentController.java:129:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/library/controllers/StudentController.java:129:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/library/controllers/StudentController.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:130:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:131:	Avoid excessively long variable names like grantStatusesDetails
+src/com/cg/library/controllers/StudentController.java:131:	Local variable 'grantStatusesDetails' could be declared final
+src/com/cg/library/controllers/StudentController.java:134:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:142:	Avoid variables with short names like m
+src/com/cg/library/controllers/StudentController.java:142:	Parameter 'm' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:142:	Parameter 'req' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:142:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:143:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:145:	System.out.println is used
+src/com/cg/library/controllers/StudentController.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/controllers/StudentController.java:151:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/controllers/StudentController.java:151:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/controllers/StudentController.java:151:	Use explicit scoping instead of the default package private level
+src/com/cg/library/controllers/StudentController.java:151:	fieldCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:153:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:153:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/library/controllers/StudentController.java:153:	publicMethodCommentRequirement Required
+src/com/cg/library/controllers/StudentController.java:156:	Avoid if (x != y) ..; else ..;
+src/com/cg/library/controllers/StudentController.java:157:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/library/dao/ILibrarianDao.java:11:	headerCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:13:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:13:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:15:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:15:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:17:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:17:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/dao/ILibrarianDao.java:17:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:19:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:19:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:21:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:21:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/dao/ILibrarianDao.java:21:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:23:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:23:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:25:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:25:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:27:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:27:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/dao/ILibrarianDao.java:27:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:29:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:29:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:31:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:31:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/ILibrarianDao.java:33:	Avoid modifiers which are implied by the context
+src/com/cg/library/dao/ILibrarianDao.java:33:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:10:	headerCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:13:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:15:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:17:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:19:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'book_id' is not final.
+src/com/cg/library/dao/IStudentDao.java:19:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:21:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/IStudentDao.java:23:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:9:	Avoid unused imports such as 'javax.persistence.TypedQuery'
+src/com/cg/library/dao/LibrarianDaoImpl.java:23:	Each class should declare at least one constructor
+src/com/cg/library/dao/LibrarianDaoImpl.java:23:	headerCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/dao/LibrarianDaoImpl.java:26:	fieldCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:29:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:29:	Parameter 'userName' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:29:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:31:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:35:	Local variable 'result' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:36:	Consider simply returning the value vs storing it in local variable 'result'
+src/com/cg/library/dao/LibrarianDaoImpl.java:43:	Parameter 'book' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:43:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:52:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:54:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:55:	Local variable 'books' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:56:	Consider simply returning the value vs storing it in local variable 'books'
+src/com/cg/library/dao/LibrarianDaoImpl.java:61:	Parameter 'bookId' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:61:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:63:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:66:	Local variable 'result' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:67:	System.out.println is used
+src/com/cg/library/dao/LibrarianDaoImpl.java:74:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:76:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:77:	Local variable 'list' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:78:	Consider simply returning the value vs storing it in local variable 'list'
+src/com/cg/library/dao/LibrarianDaoImpl.java:83:	Parameter 'books' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:83:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:94:	Parameter 'regId' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:94:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:96:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:97:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:99:	Local variable 'result' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:100:	Consider simply returning the value vs storing it in local variable 'result'
+src/com/cg/library/dao/LibrarianDaoImpl.java:105:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:107:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:108:	Local variable 'list' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:109:	Consider simply returning the value vs storing it in local variable 'list'
+src/com/cg/library/dao/LibrarianDaoImpl.java:114:	Parameter 'fine' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:114:	Parameter 'returnDate' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:114:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:114:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:116:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:120:	Local variable 'result' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:124:	System.out.println is used
+src/com/cg/library/dao/LibrarianDaoImpl.java:131:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:131:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:133:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:135:	Local variable 'result' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:136:	Consider simply returning the value vs storing it in local variable 'result'
+src/com/cg/library/dao/LibrarianDaoImpl.java:141:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:141:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/LibrarianDaoImpl.java:143:	System.out.println is used
+src/com/cg/library/dao/LibrarianDaoImpl.java:145:	Comment is too large: Line too long
+src/com/cg/library/dao/LibrarianDaoImpl.java:146:	Local variable 'query' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:149:	Local variable 'receipt' could be declared final
+src/com/cg/library/dao/LibrarianDaoImpl.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/LibrarianDaoImpl.java:150:	System.out.println is used
+src/com/cg/library/dao/StudentDaoImpl.java:17:	Each class should declare at least one constructor
+src/com/cg/library/dao/StudentDaoImpl.java:17:	headerCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/dao/StudentDaoImpl.java:20:	fieldCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:23:	Parameter 'user' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:23:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:30:	Parameter 'passwrd' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:30:	Parameter 'username' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:30:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:32:	Local variable 'query' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:36:	Local variable 'custList' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:37:	Consider simply returning the value vs storing it in local variable 'custList'
+src/com/cg/library/dao/StudentDaoImpl.java:41:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:42:	Local variable 'query' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:43:	Local variable 'bookInventoryList' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:45:	Consider simply returning the value vs storing it in local variable 'bookInventoryList'
+src/com/cg/library/dao/StudentDaoImpl.java:50:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'book_id' is not final.
+src/com/cg/library/dao/StudentDaoImpl.java:50:	Parameter 'book_id' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:50:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:51:	Local variable 'query' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/com/cg/library/dao/StudentDaoImpl.java:53:	Local variable 'customer' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:54:	Consider simply returning the value vs storing it in local variable 'customer'
+src/com/cg/library/dao/StudentDaoImpl.java:59:	Parameter 'breg' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:59:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:65:	Parameter 'uId' is not assigned and could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:65:	publicMethodCommentRequirement Required
+src/com/cg/library/dao/StudentDaoImpl.java:67:	Local variable 'query' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:69:	Local variable 'statuses' could be declared final
+src/com/cg/library/dao/StudentDaoImpl.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/library/dao/StudentDaoImpl.java:70:	Consider simply returning the value vs storing it in local variable 'statuses'
+src/com/cg/library/dto/BookInventory.java:25:	Each class should declare at least one constructor
+src/com/cg/library/dto/BookInventory.java:25:	headerCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:33:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/BookInventory.java:33:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:36:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/BookInventory.java:36:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:38:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:40:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:42:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:46:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/BookInventory.java:46:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:49:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:50:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:54:	Parameter 'bookId' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:54:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:58:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:62:	Parameter 'bookName' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:62:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:66:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:70:	Parameter 'author1' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:70:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:74:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:78:	Parameter 'author2' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:78:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:82:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:86:	Parameter 'publisher' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:86:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:90:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:94:	Parameter 'publicationYear' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:94:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:98:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:102:	Parameter 'quantity' is not assigned and could be declared final
+src/com/cg/library/dto/BookInventory.java:102:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookInventory.java:107:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:21:	Each class should declare at least one constructor
+src/com/cg/library/dto/BookRegistrationDetails.java:21:	headerCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:26:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/BookRegistrationDetails.java:26:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:28:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:30:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:32:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:34:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:35:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:38:	Parameter 'registrationId' is not assigned and could be declared final
+src/com/cg/library/dto/BookRegistrationDetails.java:38:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:41:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:44:	Parameter 'bookId' is not assigned and could be declared final
+src/com/cg/library/dto/BookRegistrationDetails.java:44:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:47:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:50:	Parameter 'userId' is not assigned and could be declared final
+src/com/cg/library/dto/BookRegistrationDetails.java:50:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:53:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:56:	Parameter 'regDate' is not assigned and could be declared final
+src/com/cg/library/dto/BookRegistrationDetails.java:56:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:59:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:62:	Parameter 'grantStatus' is not assigned and could be declared final
+src/com/cg/library/dto/BookRegistrationDetails.java:62:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookRegistrationDetails.java:66:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:21:	Each class should declare at least one constructor
+src/com/cg/library/dto/BookTransaction.java:21:	headerCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:27:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/BookTransaction.java:27:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:29:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:31:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:33:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:35:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:37:	fieldCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:38:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:41:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:41:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:44:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:47:	Parameter 'regId' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:47:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:50:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:53:	Parameter 'issueDate' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:53:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:56:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:59:	Parameter 'returnDate' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:59:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:62:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:65:	Parameter 'fine' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:65:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:68:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:71:	Parameter 'studReturnDate' is not assigned and could be declared final
+src/com/cg/library/dto/BookTransaction.java:71:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/BookTransaction.java:75:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:24:	headerCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:30:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/LibraryUser.java:30:	fieldCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:35:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/LibraryUser.java:35:	fieldCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:40:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/LibraryUser.java:40:	fieldCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:45:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/LibraryUser.java:45:	fieldCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:49:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/library/dto/LibraryUser.java:49:	fieldCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:54:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:60:	Parameter 'userId' is not assigned and could be declared final
+src/com/cg/library/dto/LibraryUser.java:60:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:66:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:72:	Parameter 'username' is not assigned and could be declared final
+src/com/cg/library/dto/LibraryUser.java:72:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:78:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:84:	Parameter 'passwrd' is not assigned and could be declared final
+src/com/cg/library/dto/LibraryUser.java:84:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:90:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:96:	Parameter 'email' is not assigned and could be declared final
+src/com/cg/library/dto/LibraryUser.java:96:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:102:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:108:	Parameter 'librarian' is not assigned and could be declared final
+src/com/cg/library/dto/LibraryUser.java:108:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:118:	publicMethodCommentRequirement Required
+src/com/cg/library/dto/LibraryUser.java:126:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/cg/library/dto/LibraryUser.java:126:	Document empty constructor
+src/com/cg/library/dto/LibraryUser.java:126:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:11:	headerCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:13:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:13:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:15:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:15:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:17:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:17:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/service/ILibrarianService.java:17:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:19:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:19:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:21:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:21:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/service/ILibrarianService.java:21:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:23:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:23:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:25:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:25:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:27:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:27:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/library/service/ILibrarianService.java:27:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:29:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:29:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:31:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:31:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:33:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:33:	publicMethodCommentRequirement Required
+src/com/cg/library/service/ILibrarianService.java:35:	Avoid modifiers which are implied by the context
+src/com/cg/library/service/ILibrarianService.java:35:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:9:	headerCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:11:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:13:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:15:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:17:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'book_id' is not final.
+src/com/cg/library/service/IStudentService.java:17:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:19:	publicMethodCommentRequirement Required
+src/com/cg/library/service/IStudentService.java:21:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:16:	Each class should declare at least one constructor
+src/com/cg/library/service/LibrarianServiceImpl.java:16:	headerCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:20:	fieldCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:22:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:26:	Parameter 'libDao' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:26:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:30:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:30:	Parameter 'userName' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:30:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:36:	Parameter 'book' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:36:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:42:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:48:	Parameter 'bookId' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:48:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:53:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:59:	Parameter 'books' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:59:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:65:	Parameter 'regId' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:65:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:71:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:76:	Parameter 'fine' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:76:	Parameter 'returnDate' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:76:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:76:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:82:	Parameter 'expDate' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:82:	Parameter 'returnDate' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:82:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:85:	Local variable 'fineAmount' could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:86:	Local variable 'fine' could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:92:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:92:	publicMethodCommentRequirement Required
+src/com/cg/library/service/LibrarianServiceImpl.java:98:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/library/service/LibrarianServiceImpl.java:98:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:17:	Each class should declare at least one constructor
+src/com/cg/library/service/StudentServiceImpl.java:17:	headerCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/library/service/StudentServiceImpl.java:20:	fieldCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:24:	Parameter 'user' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:24:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:31:	Parameter 'passwrd' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:31:	Parameter 'username' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:31:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:38:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:44:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'book_id' is not final.
+src/com/cg/library/service/StudentServiceImpl.java:44:	Parameter 'book_id' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:44:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:51:	Parameter 'breg' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:51:	publicMethodCommentRequirement Required
+src/com/cg/library/service/StudentServiceImpl.java:58:	Parameter 'uId' is not assigned and could be declared final
+src/com/cg/library/service/StudentServiceImpl.java:58:	publicMethodCommentRequirement Required
